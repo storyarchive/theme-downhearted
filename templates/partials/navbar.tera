@@ -1,0 +1,34 @@
+<x-nav primary>
+    <x-nav-section grow>
+        <x-nav-item brand>
+            <a href="/">StoryArchive</a>
+        </x-nav-item>
+    </x-nav-section>
+    <x-nav-section>
+        <x-nav-item>
+            <a href="/register/">Register</a>
+        </x-nav-item>
+        <x-nav-item>
+            <a href="/login/">Log In</a>
+        </x-nav-item>
+    </x-nav-section>
+</x-nav>
+<x-nav secondary>
+    <x-nav-section overflow>
+        <x-nav-item>
+            <a href="/downloads/">Downloads</a>
+        </x-nav-item>
+        <x-nav-item>
+            <a href="/mods/">Mods</a>
+        </x-nav-item>
+        <x-nav-item>
+            <a href="/posts/">Posts</a>
+        </x-nav-item>
+        <x-nav-item>
+            <a href="/stories/">Stories</a>
+        </x-nav-item>
+        <x-nav-item>
+            <a href="/story-archive/">Story Archive</a>
+        </x-nav-item>
+    </x-nav-section>
+</x-nav>

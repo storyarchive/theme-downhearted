@@ -1,0 +1,17 @@
+{% extends "partials/base" %}
+
+{% block title %}Hub{% endblock title %}
+
+{% block content %}
+<x-grid>
+    <x-column size="3"></x-column>
+    <x-column size="6">
+        <x-panel>
+            <x-panel-body>
+                <h3>Hub</h3>
+            </x-panel-body>
+        </x-panel>
+    </x-column>
+    <x-column size="3"></x-column>
+</x-grid>
+{% endblock content %}
