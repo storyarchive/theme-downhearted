@@ -5,6 +5,7 @@
     {% block head %}
     <title>{% block title %}{% endblock title %} - StoryArchive</title>
     {% endblock head %}
+    <meta name="viewport" content="width=device-width, initital-scale=1">
     <style>{{ css }}</style>
 </head>
 
