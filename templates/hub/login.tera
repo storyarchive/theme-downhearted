@@ -4,8 +4,8 @@
 
 {% block content %}
 <x-grid main>
-    <x-column size="3"></x-column>
-    <x-column no-margin size="6">
+    <x-column no-margin size="3"></x-column>
+    <x-column size="6">
         <x-panel>
             <x-panel-head>
                 <x-nav primary>
