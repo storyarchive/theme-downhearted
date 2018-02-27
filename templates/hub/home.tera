@@ -3,7 +3,7 @@
 {% block title %}Hub{% endblock title %}
 
 {% block content %}
-<x-grid>
+<x-grid main>
     <x-column size="3"></x-column>
     <x-column size="6">
         <x-panel>

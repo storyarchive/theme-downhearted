@@ -16,19 +16,13 @@
 <x-nav secondary>
     <x-nav-section overflow>
         <x-nav-item>
-            <a href="/downloads/">Downloads</a>
+            <a href="/story/">Stories</a>
         </x-nav-item>
         <x-nav-item>
-            <a href="/mods/">Mods</a>
+            <a href="/forum/">Forums</a>
         </x-nav-item>
         <x-nav-item>
-            <a href="/posts/">Posts</a>
-        </x-nav-item>
-        <x-nav-item>
-            <a href="/stories/">Stories</a>
-        </x-nav-item>
-        <x-nav-item>
-            <a href="/story-archive/">Story Archive</a>
+            <a href="/group/">Groups</a>
         </x-nav-item>
     </x-nav-section>
 </x-nav>

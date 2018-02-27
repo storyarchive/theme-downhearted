@@ -1,11 +1,16 @@
 x-grid {
   display: flex;
-  x-column, x-column[size="1"] {
+  x-column,
+  x-column[size="1"] {
+    box-sizing: border-box;
     flex: 1;
+    margin: $padding--small;
   }
   @for $i from 2 through 12 {
     x-column[size="#{$i}"] {
+      box-sizing: border-box;
       flex: $i;
+      margin: $padding--small;
     }
   }
   @media (max-width: $breakpoint) {

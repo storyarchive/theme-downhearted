@@ -3,7 +3,7 @@
 {% block title %}Hub{% endblock title %}
 
 {% block content %}
-<x-grid>
+<x-grid main>
     <x-column size="3"></x-column>
     <x-column size="6">
         <x-panel>
@@ -23,6 +23,13 @@
             </x-panel-head>
             <x-panel-body>
                 <h3>Log In</h3>
+                <form>
+                    <input id="form__email" placeholder="Email" type="email" />
+                    <input id="form__password--one" placeholder="Enter Password" type="password" />
+                    <x-group>
+                        <button type="submit">Log In</button>
+                    </x-group>
+                </form>
             </x-panel-body>
         </x-panel>
     </x-column>
