@@ -211,55 +211,90 @@ x-group {
 
 x-grid {
   display: flex; }
-  x-grid x-column,
+  x-grid[flex] {
+    flex: 1 auto; }
+  x-grid x-column {
+    box-sizing: border-box;
+    flex: 1;
+    margin: 0.2rem; }
+    x-grid x-column[no-margin] {
+      margin: 0; }
+    x-grid x-column[flex] {
+      display: flex; }
+    x-grid x-column[nowrap] {
+      flex-wrap: nowrap; }
   x-grid x-column[size="1"] {
     box-sizing: border-box;
     flex: 1;
     margin: 0.2rem; }
+    x-grid x-column[size="1"][no-margin] {
+      margin: 0; }
   x-grid x-column[size="2"] {
     box-sizing: border-box;
     flex: 2;
     margin: 0.2rem; }
+    x-grid x-column[size="2"][no-margin] {
+      margin: 0; }
   x-grid x-column[size="3"] {
     box-sizing: border-box;
     flex: 3;
     margin: 0.2rem; }
+    x-grid x-column[size="3"][no-margin] {
+      margin: 0; }
   x-grid x-column[size="4"] {
     box-sizing: border-box;
     flex: 4;
     margin: 0.2rem; }
+    x-grid x-column[size="4"][no-margin] {
+      margin: 0; }
   x-grid x-column[size="5"] {
     box-sizing: border-box;
     flex: 5;
     margin: 0.2rem; }
+    x-grid x-column[size="5"][no-margin] {
+      margin: 0; }
   x-grid x-column[size="6"] {
     box-sizing: border-box;
     flex: 6;
     margin: 0.2rem; }
+    x-grid x-column[size="6"][no-margin] {
+      margin: 0; }
   x-grid x-column[size="7"] {
     box-sizing: border-box;
     flex: 7;
     margin: 0.2rem; }
+    x-grid x-column[size="7"][no-margin] {
+      margin: 0; }
   x-grid x-column[size="8"] {
     box-sizing: border-box;
     flex: 8;
     margin: 0.2rem; }
+    x-grid x-column[size="8"][no-margin] {
+      margin: 0; }
   x-grid x-column[size="9"] {
     box-sizing: border-box;
     flex: 9;
     margin: 0.2rem; }
+    x-grid x-column[size="9"][no-margin] {
+      margin: 0; }
   x-grid x-column[size="10"] {
     box-sizing: border-box;
     flex: 10;
     margin: 0.2rem; }
+    x-grid x-column[size="10"][no-margin] {
+      margin: 0; }
   x-grid x-column[size="11"] {
     box-sizing: border-box;
     flex: 11;
     margin: 0.2rem; }
+    x-grid x-column[size="11"][no-margin] {
+      margin: 0; }
   x-grid x-column[size="12"] {
     box-sizing: border-box;
     flex: 12;
     margin: 0.2rem; }
+    x-grid x-column[size="12"][no-margin] {
+      margin: 0; }
   @media (max-width: 760px) {
     x-grid {
       display: block; } }

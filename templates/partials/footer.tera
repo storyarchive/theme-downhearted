@@ -1,24 +1,30 @@
 <x-nav primary overflow>
-    <x-nav-section grow>
-        <x-nav-item>
-            <a href="/terms-of-service/">Terms of Service</a>
-        </x-nav-item>
-        <x-nav-item>
-            <a href="/privacy/">Privacy</a>
-        </x-nav-item>
-        <x-nav-item>
-            <a href="/support/">Help</a>
-        </x-nav-item>
-    </x-nav-section>
-    <x-nav-section>
-        <x-nav-item>
-            <a href="/blog/">Blog</a>
-        </x-nav-item>
-        <x-nav-item>
-            <a href="/developer/">Developer</a>
-        </x-nav-item>
-        <x-nav-item>
-            <a href="/about/">About</a>
-        </x-nav-item>
-    </x-nav-section>
+    <x-grid flex>
+        <x-column no-margin size="2"></x-column>
+        <x-column no-margin flex nowrap size="8">
+            <x-nav-section grow>
+                <x-nav-item>
+                    <a href="/terms-of-service/">Terms of Service</a>
+                </x-nav-item>
+                <x-nav-item>
+                    <a href="/privacy/">Privacy</a>
+                </x-nav-item>
+                <x-nav-item>
+                    <a href="/support/">Help</a>
+                </x-nav-item>
+            </x-nav-section>
+            <x-nav-section>
+                <x-nav-item>
+                    <a href="/blog/">Blog</a>
+                </x-nav-item>
+                <x-nav-item>
+                    <a href="/developer/">Developer</a>
+                </x-nav-item>
+                <x-nav-item>
+                    <a href="/about/">About</a>
+                </x-nav-item>
+            </x-nav-section>
+        </x-column>
+        <x-column no-margin size="2"></x-column>
+    </x-grid>
 </x-nav>

@@ -4,7 +4,7 @@
 
 {% block content %}
 <x-grid main>
-    <x-column size="3"></x-column>
+    <x-column no-margin size="3"></x-column>
     <x-column size="6">
         <x-panel>
             <x-panel-body>
@@ -12,6 +12,6 @@
             </x-panel-body>
         </x-panel>
     </x-column>
-    <x-column size="3"></x-column>
+    <x-column no-margin size="3"></x-column>
 </x-grid>
 {% endblock content %}
