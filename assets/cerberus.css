@@ -437,22 +437,22 @@ body[dark] x-nav[secondary] {
 body[dark] x-panel[outline] {
   border: 1px solid #dcdfe4; }
 
-x-tag x-side[red] {
+body[dark] x-tag x-side[red] {
   background-color: #e06c75; }
 
-x-tag x-side[green] {
+body[dark] x-tag x-side[green] {
   background-color: #98c379; }
 
-x-tag x-side[yellow] {
+body[dark] x-tag x-side[yellow] {
   background-color: #e5c07b; }
 
-x-tag x-side[blue] {
+body[dark] x-tag x-side[blue] {
   background-color: #61afef; }
 
-x-tag x-side[magenta] {
+body[dark] x-tag x-side[magenta] {
   background-color: #c678dd; }
 
-x-tag x-side[cyan] {
+body[dark] x-tag x-side[cyan] {
   background-color: #56b6c2; }
 
 body[light] {
@@ -532,20 +532,20 @@ body[light] x-nav[secondary] {
 body[light] x-panel[outline] {
   border: 1px solid #383a42; }
 
-x-tag x-side[red] {
+body[light] x-tag x-side[red] {
   background-color: #e45649; }
 
-x-tag x-side[green] {
+body[light] x-tag x-side[green] {
   background-color: #50a14f; }
 
-x-tag x-side[yellow] {
+body[light] x-tag x-side[yellow] {
   background-color: #c18401; }
 
-x-tag x-side[blue] {
+body[light] x-tag x-side[blue] {
   background-color: #0184bc; }
 
-x-tag x-side[magenta] {
+body[light] x-tag x-side[magenta] {
   background-color: #a626a4; }
 
-x-tag x-side[cyan] {
+body[light] x-tag x-side[cyan] {
   background-color: #0997b3; }
