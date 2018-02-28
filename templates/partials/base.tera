@@ -2,28 +2,31 @@
 <html lang="en">
     
 <head>
-    {% block head %}
-    <title>{% block title %}{% endblock title %} - StoryArchive</title>
-    {% endblock head %}
     <meta name="viewport" content="width=device-width, initital-scale=1">
-    <style>{{ css }}</style>
+    <title>{% block title %}{% endblock title %} - StoryArchive</title>
+    <link rel="shortcut icon" type="image/png" href="/assets/icon-16x16-transparent.png"/>
+    <style>
+{{ css }}
+    </style>
 </head>
 
 <body>
+
 {% include "partials/navbar" %}
 
 {% block content %}{% endblock content %}
 
 {% include "partials/footer" %}
 
-    <script>
-        var time = new Date().getHours();
-        if ((time >= 20 && time <= 23) || (time >= 0 && time <= 4)) {
-            document.body.setAttribute("dark", "");
-        } else {
-            document.body.setAttribute("light", "");
-        }
-    </script>
+<script>
+    var time = new Date().getHours();
+    if ((time >= 20 && time <= 23) || (time >= 0 && time <= 4)) {
+        document.body.setAttribute("dark", "");
+    } else {
+        document.body.setAttribute("light", "");
+    }
+</script>
+
 </body>
 
 </html>
